@@ -1,0 +1,32 @@
+.navbar-nav .nav-link.active {
+    color: #fff;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+body {
+    background-color: #23252B;
+}
+
+.carousel-item {
+    max-height: 80vh;
+}
+
+.btn-play {
+    background-color: #FF640A;
+    color: #23252B;
+}
+
+.btn:hover {
+    background-color: #f89053;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #FF640A;
+    z-index: 3;
+}
