@@ -17,6 +17,7 @@ body {
 .btn-play {
     background-color: #FF640A;
     color: #23252B;
+    align-self: center;
 }
 
 .btn:hover {
@@ -29,4 +30,23 @@ header {
     left: 0;
     background-color: #FF640A;
     z-index: 3;
+}
+
+footer {
+    background-color: #FF640A;
+    padding: 2rem;
+    text-align: center;
+
+    p {
+        color: #CCC;
+    }
+
+    a {
+        color: #FFF;
+        text-decoration: underline;
+    }
+
+    a:hover {
+        color: #52AAF7;
+    }
 }
